@@ -1,0 +1,319 @@
+/* font-family: 'Fredoka One', cursive;
+font-family: 'Hind Madurai', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F2CEDA;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.hero {
+    background: url(../img/Hero\ area.png) no-repeat center/cover;
+    height: 100vh;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+}
+
+
+.logo {}
+
+.logo__img {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 245px;
+    top: 10px;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    margin-right: 28px;
+
+}
+
+.nav__item:last-child {
+    margin-right: 0px;
+}
+
+.nav__link__2 {
+    font-size: 15px;
+    line-height: 18px;
+    color: #D23166;
+}
+
+.nav__link {
+    padding: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn {
+    font-family: 'Hind Madurai', sans-serif;
+    width: 165px;
+    height: 49px;
+    left: 1205px;
+    top: 25px;
+    border: none;
+    background: #D23166;
+    border-radius: 5px;
+}
+
+.content {
+    padding-top: 150px;
+    max-width: 49%;
+}
+
+.content__main {}
+
+.content__headline {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+
+}
+
+.title {
+    font-family: 'Fredoka One', cursive;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+
+}
+
+.content__ice {
+    color: #D23166;
+}
+
+.hero__title {}
+
+.content__desc {
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+
+}
+
+.content__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.content__img {
+
+    position: absolute;
+    width: 597px;
+    height: 597px;
+    left: 889px;
+    top: 126px;
+}
+
+.content__img__2 {
+    position: absolute;
+    width: 851.86px;
+    height: 548.1px;
+    left: 785.8px;
+    top: 251px;
+
+    background: url(UaNIa1ewNn-removebg-preview.png);
+    transform: rotate(4.79deg);
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+    width: 365px;
+    height: 353px;
+    left: 1005px;
+    top: 411px;
+    background: #D23166;
+    opacity: 0.1;
+}
+
+.food {
+    padding: 115px 0px 102px;
+    margin-left: 229px;
+    margin-right: 228px;
+}
+
+.food__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.food__item {
+    width: 23%;
+}
+
+.dish {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.dish__img-wrap {
+    width: 100%;
+    height: 175px;
+    overflow: hidden;
+}
+
+.dish_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.dish__desc {
+    padding: 28px 35px 30px;
+    
+}
+
+.dish__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 13px;
+}
+
+.dish__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+
+}
+
+.order {}
+
+.container {}
+
+.order__container {}
+
+.order__img-wrap {}
+
+.order__column {}
+
+.order__img {
+    position: absolute;
+    width: 655px;
+    height: 656.8px;
+    left: 768px;
+    top: 1190px;
+    background: url(nWvlMBTo86-removebg-preview.png);
+}
+
+.order__desc {}
+
+.call-to-action {}
+
+.order__call-to-action {}
+
+.call-to-action__title {}
+
+.order__call-to-action-title {
+    position: absolute;
+    width: 349px;
+    height: 98.27px;
+    left: 253px;
+    top: 1403.59px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+    
+}
+
+.call-to-action__text {}
+
+.paragragh {
+    position: absolute;
+    width: 442px;
+    height: 58.16px;
+    left: 252px;
+    top: 1517.9px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin-bottom: 35.1px;
+}
+
+.btn {
+    position: absolute;
+    width: 165px;
+    height: 49.13px;
+    left: 253px;
+    top: 1611.16px;
+    background: #D64374;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+
+}
